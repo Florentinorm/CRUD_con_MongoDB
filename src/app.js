@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // connection to db
-mongoose.connect('mongodb+srv://Producto:Tino-ramirez@cluster0.4g7bl.mongodb.net/test')
+mongoose.connect('<--LINK DE CONEXION A LA BASE DE DATOS-->')
   .then(db => console.log('Conexion a la base de datos MongoDB Exitosa'))
   .catch(err => console.log(err));
 
