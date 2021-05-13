@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // connection to db
-mongoose.connect('<--LINK DE CONEXION A LA BASE DE DATOS-->')
+mongoose.connect('mongodb://localhost/productos')
   .then(db => console.log('Conexion a la base de datos MongoDB Exitosa'))
   .catch(err => console.log(err));
 
